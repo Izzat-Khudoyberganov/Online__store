@@ -1,20 +1,44 @@
 @font-face {
-  font-family: "Nunito-Light";
-  src: url(../fonts/Nunito-Light.ttf);
+  font-family: 'OpenSans-Bold';
+  src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+    url('../fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
+
 @font-face {
-  font-family: "Nunito-Bold";
-  src: url(../fonts/Nunito-Bold.ttf);
+  font-family: 'Nunito-Bold';
+  src: url('../fonts/Nunito-Bold.woff2') format('woff2'),
+    url('../fonts/Nunito-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
+
 @font-face {
-  font-family: "OpenSans-Light";
-  src: url(../fonts/OpenSans-Light.ttf);
+  font-family: 'Nunito-Light';
+  src: url('../fonts/Nunito-Light.woff2') format('woff2'),
+    url('../fonts/Nunito-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
+
 @font-face {
-  font-family: "OpenSans-Regular";
-  src: url(../fonts/OpenSans-Regular.ttf);
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/OpenSans-Light.woff2') format('woff2'),
+    url('../fonts/OpenSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
+
 @font-face {
-  font-family: "OpenSans-Bold";
-  src: url(../fonts/OpenSans-Bold.ttf);
+  font-family: 'OpenSans-Regular';
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+    url('../fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
