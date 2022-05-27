@@ -91,7 +91,7 @@
     flex-direction: column;
   }
 
-  .footer .container.flex {
+  .page__footer .container.flex {
     flex-wrap: wrap;
     gap: 30px;
   }
@@ -180,7 +180,7 @@
     margin-top: 40px;
   }
 
-  .footer {
+  .page__footer {
     padding: 30px 0;
   }
 
@@ -195,7 +195,7 @@
     line-height: 100%;
   }
   
-  .footer .container.flex{
+  .page__footer .container.flex{
     gap: 20px;
   }
 }
