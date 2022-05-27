@@ -1,0 +1,19 @@
+:root {
+    --NL: "Nunito-Light";
+    --NB: "Nunito-Bold";
+    --OL: "OpenSans-Light";
+    --OR: "OpenSans-Regular";
+    --OB: "OpenSans-Bold";
+    --gray: #EDEDED;
+    --gray1: #333333;
+    --fon: #F4F6F9;
+    --white: #FFFFFF;
+    --dark: #020303;
+    --main: #2F80ED;
+    --blue: #8CC01E;
+    --red: #C63A22;
+    --bg-blue: #F0F9E5;
+    --sales-fon: #FFFCBE;
+    --sales-btn: #FFC700;
+    --gray-btn: #AEAEAE;
+  }
