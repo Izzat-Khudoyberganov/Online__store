@@ -141,6 +141,7 @@
 
   .sm-column {
     flex-direction: column;
+    gap: 15px;
   }
 
   .info__box-btn {
