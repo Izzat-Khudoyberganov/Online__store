@@ -349,7 +349,6 @@ html {
 }
 
 .tab__nav {
-  max-width: 500px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -361,14 +360,14 @@ html {
 .tab__nav-link {
   font-family: var(--OB);
   color: var(--dark);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 120%;
   letter-spacing: 0.02rem;
   transition: .5s;
 }
 
 .tab__nav-link.active {
-  color: #2F80ED;
+  color: var(--red);
 }
 
 .card__box {
