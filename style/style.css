@@ -189,6 +189,7 @@ html {
 
 .logo__img {
   height: 50px;
+  width: 150px;
 }
 
 .search__input {
@@ -467,7 +468,7 @@ html {
 
 .instagram {
   margin-top: 60px;
-  background-image: url(../img/instagram-section-bg.png);
+  background-image: url(../img/instagram-section-bg.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
