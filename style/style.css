@@ -21,6 +21,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-display: swap;
 }
 
 *::after,
@@ -102,6 +103,17 @@ html {
   align-items: center;
   justify-content: space-between;
   height: 100%;
+}
+
+.close__btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #E0E0E0;
+  width: 20px;
+  height: 20px;
+  border: none;
+  display: none;
 }
 
 .burger__menu {
@@ -210,16 +222,6 @@ html {
   color: var(--main);
 }
 
-.shopping-cart::after {
-  content: '153';
-  padding: 5px;
-  background-color: var(--blue);
-  position: absolute;
-  border-radius: 50%;
-  top: -15%;
-  right: -15%;
-}
-
 .market__name,
 .total__money {
   font-size: 16px;
@@ -274,7 +276,7 @@ html {
 /* Main section started */
 
 .main {
-  background-color: var(--gray);
+  background-color: var(--white);
 }
 
 .main__box {
@@ -474,6 +476,7 @@ html {
   padding-top: 88px;
 }
 
+
 .title {
   font-family: var(--OB);
   font-weight: 700;
@@ -598,7 +601,7 @@ html {
   margin-top: 40px;
 }
 
-.footer__links{
+.footer__links {
   display: flex;
   flex-direction: column;
   gap: 10px;
